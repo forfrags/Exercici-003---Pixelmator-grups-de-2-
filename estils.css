@@ -32,4 +32,16 @@ html, body {
   font-weight: 500;
   cursor: pointer;
 }
+.links a:hover { text-decoration: underline; }
+
+/* Sticky bar amb efecte Frozen glass */
+.stickybar {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(8px) saturate(120%);
+  background: rgba(255,255,255,0.45);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  z-index: 10;
+}
+
 
