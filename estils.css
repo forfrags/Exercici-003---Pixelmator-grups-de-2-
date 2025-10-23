@@ -41,7 +41,34 @@ html, body {
   backdrop-filter: blur(8px) saturate(120%);
   background: rgba(255,255,255,0.45);
   border-bottom: 1px solid rgba(0,0,0,0.06);
-  z-index: 10;
+  z-index: 10;.sticky-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.logo-small { height: 34px; }
+.sticky-center a {
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #222;
+  cursor: pointer;
+}
+.sticky-center a:hover { opacity: 0.8; }
+
+/* Botons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+}
+
 
 
