@@ -1,0 +1,13 @@
+/* estils.css - Exercici003 (Flexbox) */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
+  color: #111;
+}
+
+/* Contenidor principal */
+.container {
+  max-width: 1264px;
+  margin: 0 auto;
+  padding: 24px;
+}
