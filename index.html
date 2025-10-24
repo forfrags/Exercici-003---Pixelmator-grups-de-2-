@@ -7,15 +7,13 @@
   <link rel="stylesheet" href="estils.css" />
 </head>
 <body>
-  <!-- Capçalera -->
+  <!-- HEADER -->
   <header class="site-header">
-    <!-- Part superior -->
+    <!-- Top section -->
     <div class="topbar">
       <div class="container">
         <div class="brand">
-          <a href="https://www.pixelmator.com/pro/">
-            <img src="imatges/img_app-of-the-year@2x.png" alt="Pixelmator Logo" class="logo">
-          </a>
+          <img src="imatges/img_app-of-the-year@2x.png" alt="Pixelmator logo" class="logo">
           <span class="product">Pixelmator Pro 3.7</span>
         </div>
         <nav class="links">
@@ -27,109 +25,136 @@
       </div>
     </div>
 
-    <!-- Menú sticky -->
+    <!-- Sticky bar -->
     <div class="stickybar">
       <div class="container sticky-inner">
         <div class="sticky-left">
           <img src="imatges/img_app-of-the-year@2x.png" alt="logo small" class="logo-small">
         </div>
         <div class="sticky-center">
-          <a href="https://www.pixelmator.com/pro/">Features</a>
-          <a href="https://support.pixelmator.com/pixelmator-pro-user-guide/">User Guide</a>
-          <a href="https://www.pixelmator.com/pro/tech-specs/">Tech Specs</a>
+          <a href="#">Features</a>
+          <a href="#">User Guide</a>
+          <a href="#">Tech Specs</a>
         </div>
         <div class="sticky-right">
-          <a class="btn primary" href="https://apps.apple.com/us/app/pixelmator-pro/id1289583905?mt=12&ls=">Buy now</a>
+          <a class="btn primary" href="#">Buy now</a>
         </div>
       </div>
     </div>
   </header>
 
-    <!-- Vídeo demostració -->
-    <section class="video-section">
-      <div class="container">
-        <h2>Veure-ho en acció</h2>
-        <div class="video-wrap">
-          <video controls playsinline>
-            <source src="imatges/video_smart-shapes.mov" type="video/quicktime">
-            El teu navegador no suporta l'element <code>video</code>.
-          </video>
+  <!-- MAIN -->
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1>Pixelmator Pro</h1>
+          <p class="lead">Un editor d’imatges potent, intuïtiu i bellament dissenyat per a Mac.</p>
+          <div class="hero-actions">
+            <a class="btn primary large" href="#">Buy now</a>
+            <a class="btn ghost" href="#">Learn more</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img src="imatges/img_hero@2x.png" alt="Hero Pixelmator" class="hero-image">
         </div>
       </div>
     </section>
 
-    <!-- Secció extra -->
-    <section class="gallery white">
-      <div class="container">
-        <h2>Inspiració</h2>
-        <div class="gallery-row">
-          <img src="imatges/img_design-guides@2x.jpg" alt="Disseny" class="round shadow">
-          <img src="imatges/img_text@2x.jpg" alt="Tipografia" class="round shadow">
-          <img src="imatges/img_draw@2x.png" alt="Dibuix" class="round shadow">
-        </div>
-      </div>
-    </section>
-
-    <!-- Característiques -->
+    <!-- FEATURES -->
     <section class="features white">
       <div class="container">
         <h2>Eines creatives professionals</h2>
         <div class="features-grid">
           <article class="feature">
-            <img src="imatges/img_design--v1@2x.png" alt="Design tool">
+            <img src="imatges/img_design--v1@2x.png" alt="Disseny intel·ligent">
             <h3>Disseny intel·ligent</h3>
-            <p>Eines vectorials i de text amb precisió per a qualsevol projecte creatiu.</p>
+            <p>Crea composicions i gràfics amb precisió gràcies a les guies intel·ligents i capes de disseny.</p>
           </article>
           <article class="feature">
-            <img src="imatges/img_effects@2x.png" alt="Efectes">
-            <h3>Efectes avançats</h3>
-            <p>Més de 60 efectes visuals per transformar les teves imatges fàcilment.</p>
+            <img src="imatges/img_effects@2x.png" alt="Efectes visuals">
+            <h3>Efectes visuals</h3>
+            <p>Aplica més de 60 efectes per millorar i transformar les teves imatges amb facilitat.</p>
           </article>
           <article class="feature">
             <img src="imatges/img_core-image@2x.png" alt="Core Image">
             <h3>Core Image</h3>
-            <p>Basat en la tecnologia gràfica de macOS per oferir màxima velocitat i qualitat.</p>
+            <p>Basat en la potència gràfica de macOS per obtenir el millor rendiment i qualitat.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Vídeo demostració -->
-    <section class="video-section">
+    <!-- MACHINE LEARNING -->
+    <section class="ml-section">
+      <div class="container">
+        <h2>Intel·ligència artificial i aprenentatge automàtic</h2>
+        <div class="ml-gallery">
+          <img src="imatges/img_ml-super-resolution@2x.png" alt="Super resolució" class="shadow round">
+          <img src="imatges/img_ml-match-colors@2x.png" alt="Coincidència de colors" class="shadow round">
+          <img src="imatges/img_ml-enhance@2x.png" alt="Millora automàtica" class="shadow round">
+          <img src="imatges/img_ml-denoise@2x.png" alt="Reducció de soroll" class="shadow round">
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEOS -->
+    <section class="video-section white">
       <div class="container">
         <h2>Veure-ho en acció</h2>
-        <div class="video-wrap">
+        <div class="videos-row">
           <video controls playsinline>
             <source src="imatges/video_smart-shapes.mov" type="video/quicktime">
-            El teu navegador no suporta l'element <code>video</code>.
+          </video>
+          <video controls playsinline>
+            <source src="imatges/video_repair.mp4" type="video/mp4">
           </video>
         </div>
       </div>
     </section>
 
-    <!-- Secció extra -->
-    <section class="gallery white">
+    <!-- ICONS -->
+    <section class="icons">
       <div class="container">
-        <h2>Inspiració</h2>
-        <div class="gallery-row">
-          <img src="imatges/img_design-guides@2x.jpg" alt="Disseny" class="round shadow">
-          <img src="imatges/img_text@2x.jpg" alt="Tipografia" class="round shadow">
-          <img src="imatges/img_draw@2x.png" alt="Dibuix" class="round shadow">
+        <h2>Compatibilitat i integració</h2>
+        <div class="icons-grid">
+          <img src="imatges/ico_apple-silicon@2x.png" alt="">
+          <img src="imatges/ico_icloud-drive@2X.png" alt="">
+          <img src="imatges/ico_applescript@2x.png" alt="">
+          <img src="imatges/ico_universal-control@2x.png" alt="">
+          <img src="imatges/ico_retina-display@2x.png" alt="">
+          <img src="imatges/ico_color-management@2x.png" alt="">
+          <img src="imatges/ico_photos-extension@2x.png" alt="">
+          <img src="imatges/ico_soft-proofing@2x.png" alt="">
         </div>
       </div>
     </section>
 
-    <!-- CTA final -->
+    <!-- GALLERY -->
+    <section class="gallery white">
+      <div class="container">
+        <h2>Galeria de projectes</h2>
+        <div class="gallery-row">
+          <img src="imatges/img_design-guides@2x.jpg" alt="">
+          <img src="imatges/img_text@2x.jpg" alt="">
+          <img src="imatges/img_draw@2x.png" alt="">
+          <img src="imatges/img_design-layers@2x.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
     <section class="cta">
       <div class="container">
-        <h2>Comença a crear avui mateix</h2>
-        <p>Descarrega Pixelmator Pro i transforma les teves fotos i dissenys.</p>
-        <a class="btn primary large" href="https://apps.apple.com/us/app/pixelmator-pro/id1289583905?mt=12&ls=">Buy now</a>
+        <h2>Comença a crear amb Pixelmator Pro</h2>
+        <p>Descarrega l’aplicació avui i descobreix tot el seu potencial creatiu.</p>
+        <a class="btn primary large" href="#">Buy now</a>
       </div>
     </section>
   </main>
 
-  <!-- Peu -->
+  <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-left">
@@ -137,9 +162,9 @@
         <p>© Pixelmator — Exercici003</p>
       </div>
       <div class="footer-right">
-        <a href="https://www.pixelmator.com/pro/tech-specs/">Tech Specs</a>
-        <a href="https://support.pixelmator.com">Support</a>
-        <a href="https://www.pixelmator.com/blog/">Blog</a>
+        <a href="#">Tech Specs</a>
+        <a href="#">Support</a>
+        <a href="#">Blog</a>
       </div>
     </div>
   </footer>
